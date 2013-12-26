@@ -8,5 +8,8 @@ fatal: HTTP request failed
 SOLN: git config --global http.sslverify false 
 
 gstreamer1.0 problem in installing EFL
-SOLN: http://askubuntu.com/questions/279509/how-can-i-install-gstreamer-1-0-in-ubuntu-12-04
+SOLN: sudo add-apt-repository ppa:gstreamer-developers/ppa
+      sudo apt-get update
+      sudo apt-get install gstreamer1.0*
+ 
 
