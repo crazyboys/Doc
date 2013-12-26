@@ -1,3 +1,12 @@
+/**
+
+  This file is regarding the problem that we usually get in installing EFL or related to that.
+
+**/
+
+
+
+
 Error: Server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRfile: none while accessing https://github.com/crazyboys/mywidget.git/info/refs 
 fatal: HTTP request failed
 SOLN: git config --global http.sslverify false 
